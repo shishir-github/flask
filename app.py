@@ -6,4 +6,8 @@ app = Flask(__name__)
 def index():
     return 'Web App with Python Flask!!'
 
+@app.route('/api/health')
+def index():
+    return 'Health okay'
+
 app.run()
