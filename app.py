@@ -11,4 +11,4 @@ def home():
 def health():
     return 'Health okay'
 
-app.run()
+app.run(debug=True)
